@@ -15,3 +15,16 @@ def CREAR_SOPA(x,y):
             contador2 = contador2 + 1
         contador = contador + 1
     return matriz
+
+def CREAR_LISTA(num):
+    """
+
+    :param num:
+    :return:
+    """
+    contador = 0
+    lista =[]
+    while (contador < num):
+        lista.append(str(input("Ingrese una palabra: ")))
+        contador = contador + 1
+    return lista

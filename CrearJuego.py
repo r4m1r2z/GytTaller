@@ -29,14 +29,14 @@ def CREAR_LISTA(num):
         contador = contador + 1
     return lista
 
-def BUSCAR_PALABRA(matriz,palabra):
+def BUSCAR_PALABRA(matriz,lista):
     """
 
     :param matriz:
-    :param palabra:
+    :param lista:
     :return:
     """
-    letras = list(palabra)
+    letras = list(lista)
     x = 0
     coordenadas = []
     while (x < len(matriz)):
@@ -47,3 +47,4 @@ def BUSCAR_PALABRA(matriz,palabra):
             y = y + 1
         x = x + 1
     x = 0
+    lista = []

@@ -28,3 +28,22 @@ def CREAR_LISTA(num):
         lista.append(str(input("Ingrese una palabra: ")))
         contador = contador + 1
     return lista
+
+def BUSCAR_PALABRA(matriz,lista):
+    """
+
+    :param matriz:
+    :param lista:
+    :return:
+    """
+    letras = list(lista)
+    x = 0
+    coordenadas = []
+    while (x < len(matriz)):
+        y = 0
+        while (y < len(matriz[x])):
+            if (matriz[x][y] == letras[0][0]):
+                coordenadas.append([x,y])
+            y = y + 1
+        x = x + 1
+    x = 0

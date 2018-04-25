@@ -48,3 +48,5 @@ def BUSCAR_PALABRA(matriz,lista):
         x = x + 1
     x = 0
     lista = []
+    a = "difícil"
+    print("Que taller tan", a)
